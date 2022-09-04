@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Force</title>
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./fontawesome/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="section__header">
+        <div class="section__header--content">
+            <a href="#" class="section__header--logo">
+                TASK | FORCE
+            </a>
+            <ul class="section__header--list">
+                <li class="section__header--item">
+                    <a href="#" class="section__header--link btn">
+                        Вход
+                    </a>
+                </li>
+                <li class="section__header--item">
+                    <a href="#" class="section__header--link btn">
+                        Регистрация
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="section__header--content">
+            <p class="section__header--slogan">
+                Здесь будет находиться слоган компании
+            </p>
+            <ul class="section__header--info__list">
+                <li class="section__header--info__item">
+                    <span class="info__user"></span>
+                    31 онлайн
+                </li>
+                <li class="section__header--info__item">
+                    <span class="info__case"></span>
+                    45 заказов
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section__content section__form">
+            <h1 class="section__heading">Авторизация</h1>
+            <form class="section__form--form">
+                <input type="text" placeholder="Введите ваш логин" class="section__form--input">
+                <input type="password" placeholder="Введите ваш пароль" class="section__form--input">
+                <input type="submit" class="btn btn__input section__form--input" value="Авторизоваться">
+            </form>
+
+            <h1 class="section__heading">Или войдите через соц. сети</h1>
+            <div class="section__form--social">
+                <a href="#" class="section__form--link">
+                    <i class="fa fa-google" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="section__form--link">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="section__form--link">
+                    <i class="fa fa-vk" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="section__form--link">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section__footer">
+        <div class="section__footer--block">
+            <a href="#" class="section__footer--logo">Task | Force</a>
+            <ul class="section__footer--list">
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">Задания</a>
+                </li>
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">Исполнители</a>
+                </li>
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">Создать задание</a>
+                </li>
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">Мой профиль</a>
+                </li>
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">Регистрация</a>
+                </li>
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">Справка</a>
+                </li>
+            </ul>
+        </div>
+        <div class="section__footer--block">
+            <img src="./images/ambion-app-badges.png" alt="apps" class="section__footer--apps">
+            <ul class="section__footer--list list__social">
+                <li class="section__footer--item">
+                    <a href="mailto: main.ru" class="section__footer--email">vladimirmihajlov0893@gmail.com</a>
+                </li>
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+                </li>
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">
+                        <i class="fa fa-vk"></i>
+                    </a>
+                </li>
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="section__footer--item">
+                    <a href="#" class="section__footer--link">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p class="copyright">Task | Force <span class="time"></span>, &copy; Все права защищены</p>
+    </footer>
+
+    <script>
+        document.querySelector(".time").textContent = new Date().getFullYear()
+    </script>
+</body>
+</html>
